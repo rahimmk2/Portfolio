@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <link rel="icon" href="../Images/logo.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="project.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="page">
+      <div class="titlePage">
+        <div class="bar"></div>
+        <a class="" href="../index.html"
+          ><img class="logo" src="../Images/logo.png" alt="logo"
+        /></a>
+        <a class="footer-link" href="../aboutPage/about.html">About</a>
+        <a class="footer-link" href="../projectsPage/project.html">Projects</a>
+        <a class="footer-link" href="../workExperience/workExperience.html"
+          >Work Experience</a>
+          <a class="footer-link" href="../skillsPage/skills.html">Contact Me</a>
+        <p class="trademark">© Rahim Khan.</p>
+
+        <!-- <p>© Rahim Khan.</p> -->
+      </div>
+    </div>
+
+    <h2>Projects</h2>
+    <hr style="height: 5px" />
+
+    <div class="project1">
+      <h3>SUI 2 SWE</h3>
+      <p class="tags">Sui Blockchain, C++(Data-Structures)</p>
+      <p class="description">
+        Sui is a nascent blockchain with an innovative, Directed Acyclic Graph (DAG) foundation and 
+        due to its young age and immature structure, no tools exist to support the exploration of 
+        activities and connectivities on this blockchain. In this project, we sought to create a 
+        general search tool for Sui to allow users to better understand and explore this 
+        blockchain.
+      </p>
+
+      <p class="description">
+        Running a full node, provided the entire dataset, containing transactions,checkpoints 
+        and epoch changes. The data was stored in a relational database maintaining its DAG relations.
+      </p>
+
+      <p class="description">
+        Implemented algorithms on the dataset to allow users to expand user's understanding of the 
+        inner workings of the blockchain. Dijkstra's algorithm allowed user to determine the shortest path 
+        from the original state to the end state while DFS traversal was implemented to figure out all 
+        possible paths that can be taken to complete a transaction.
+      </p>
+      <a href="https://github.com/Sui2SWE/Final-Project"><button type="button" class="btn btn-outline-light">Visit</button></a>
+    </div>
+    
+
+
+    <div class="project1">
+      <h3>UI-Eats</h3>
+      <p class="tags">Flutter, Dart, Android Home Studio, X-Code</p>
+      <p class="description">
+         Designed and developed an app with dart and flutter that presented all the restaurant options available on campus, categorized
+         by their cuisines. App developed and implemented on both android based and IOS based emulators. Furthermore, integrated a time function in the app to indicate
+        which restaurants are currently
+        open and which are closed. 
+      </p>
+      <p class="description">
+        In backend, the app was linked to a self-created CSV file that contained the data of all the restaurants
+        present on campus. Furthermore, each restaurant has its own page/screen which display a short bio of it,
+        its cuisine and its location on campus. 
+      </p>
+
+      <p class="description">
+        The multi-page front-end was implemented using routes on a total of two pages as the second page
+        displayed the bio of the restaurant,the page description and the title which was directly read from the CSV file, thus making
+        the program efficient.
+      </p>
+
+
+      <a href="https://github.com/rahimmk2/UI-Eats"><button type="button" class="btn btn-outline-light">Visit</button></a>
+    </div>
+
+    <div class="project1">
+      <h3>New York Taxi Trips</h3>
+      <p class="tags">C++(Data-Structures)</p>
+      <p class="description">
+        The dataset containing the information about the New York yellow cabs
+        was used to develop a program that could read the file and implement multiple 
+        algorithms to perform the relevant traversals to answer multiple queries.
+      </p>
+
+      <p class="description">
+        The data was read from a csv file and stored using the data structures of linked
+        list and binary search trees. The implementation of trees allowed an efficent run-time
+        of O log-n to perform searches on the data. 
+        Implementing trees allowed to reduce the
+        run-time for searching of the data.
+        entered by the user.
+      </p>
+      <p class="description">
+        The program implemented functions and DFS to search the top 10 cheapest trips in NYC, 
+        the most visited locations, and utilized the data to calculate an estimated fare between two locations.
+
+      </p>
+        
+      
+        
+        
+      
+      <a href="https://github.com/rahimmk2/New-York-Taxi-Trips"><button type="button" class="btn btn-outline-light">Visit</button></a>
+      
+      
+      
+    </div>
+
+   
+
+
+    <div class="project1">
+      <h3>Portfolio Website</h3>
+      <p class="tags">HTML, CSS, JavaScript, BootStrap</p>
+      <p class="description"> 
+       Developed a personal website using BootStrap framework to showcase my web-development skills and to
+       highlight my most prominent projects.
+      </p>
+      <a href="https://github.com/rahimmk2/Portfolio-Website"><button type="button" class="btn btn-outline-light">Visit</button></a>
+    </div>
+
+    <div class="project1">
+      <h3>Color Coding Bees</h3>
+      <p class="tags">3D-Laser Cutting, LDR Circuits</p>
+      <p class="lastdescription">
+        As the process of color-coding bees has always been manual,I worked in a research group on a project that could automate the process of color-coding 
+        bees. LDR were integrated in the circuit which coupled with tubes constructed by 3D laser-cutting allowed 
+        the bees to enter the hive. The tube had  holes which allowed the dot-matrix printer to code the bees
+        while they enter the hive.
+      </p>
+    </div>
+
+      </div>
+    </div>
+  </body>
+</html>

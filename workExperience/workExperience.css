@@ -1,0 +1,134 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.footer-link{
+    color: white;
+    margin: 1.5%;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: center;
+}
+.footer-link:hover{
+    color: orange;
+}
+.trademark{
+    margin-left: 1.5%;
+    color: #2d2d2d;
+}
+.home{
+    text-decoration: none;
+}
+.logo{display: inline-block; width: 10%;}
+.footer{
+    background-color:#100c0c;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position: absolute;
+    bottom: 0%;
+}
+.contactme{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    font-size: 300%;
+    color: white;
+    padding-top: -5%;
+    text-align: center;
+}
+h3{
+    margin-top: 2%;
+    text-align: left;
+    color: white;
+    padding-left: 30%;
+
+}
+hr{
+    width: 20%;
+    margin: auto;
+    color: #494848;
+    height: auto;
+}
+* {scroll-behavior: smooth;}
+.tags{
+    display: inline-block;
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: orange;
+
+}
+
+.something{
+color: white;
+text-align: center;
+}
+.description{
+    /* width: fit-content; */
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: auto;
+    text-align: left;
+    padding-bottom: 2%;
+}
+.lastdescription{
+    color: white;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin: auto;
+    text-align: left;
+    margin-bottom: 6%;
+}
+
+.socialmedia{
+    width: 200px;
+    margin-top: 3%;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+    
+}
+@media(max-width:800px){
+    .footer-link{
+        font-size: 0.75rem;
+    }
+    .trademark{
+        font-size: 0.4rem;
+    }
+    
+
+}
+@media(max-width:750px){
+    .footer-link{
+        font-size: 0.6rem;
+    }
+    .description{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .lastdescription{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .tags{
+        padding-left: 10%;
+    }
+    h3{
+        padding-left: 10%;
+        margin-top: 10%;
+    }
+    h2{
+        margin-top: 10%;
+    }
+    .btn{
+        margin-left: 10%;
+    }
+}
